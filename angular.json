@@ -29,7 +29,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "deploy": "ng build --prod --GHAction=/AngularApp-Deploy/"
+            ]
           },
           "configurations": {
             "production": {
